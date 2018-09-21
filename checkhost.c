@@ -18,7 +18,7 @@ int main(){
     int engellenen;
     
     printf("--------------------------------------------\n");
-    printf("MR.HASAN ~ CheckHost Engelleme\n");
+    printf("MR.HASAN ~ Basit Sekilde CheckHost Engelleme\n");
     printf("--------------------------------------------\n");
     printf("\n");
     
