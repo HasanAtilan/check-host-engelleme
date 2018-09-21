@@ -39,7 +39,7 @@ int main(){
             
             case 1:
             char komutyolla[32]; 
-            sprintf(komutyolla, "iptables -I INPUT -p tcp --dport 80 -s 31.148.219.169 -j REJECT", n);
+            sprintf(komutyolla, "iptables -A INPUT -s 31.148.219.0/24 -j DROP", n);
             break;
             
             
